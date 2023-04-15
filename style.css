@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem
+}
+
+/* Styling for links */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the "About Me" section */
+#about {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+/* Styling for the "My Skills" section */
+#skills {
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+/* Styling for the "My Projects" section */
+#projects {
+  padding: 2rem;
+}
+
+#projects ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+#projects li {
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+#projects li:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the "Contact Me" section */
+#contact {
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
